@@ -33,7 +33,7 @@ public class Account {
 	}
 
 	public String toString() {
-		return "Acc " + accnum + ": " + "balance = " + bal;
+		return "Cuenta #" + accnum + ": " + "balance = " + bal;
 	}
 
 	public final void print() {
@@ -41,5 +41,5 @@ public class Account {
 		// override the toString method
 		System.out.println(toString());
 	}
-	
+
 }
